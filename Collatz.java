@@ -4,8 +4,8 @@ public class Collatz {
 	    int seed = Integer.parseInt(args[0]);
 		String mode = args[1];
 		
-		System.out.println("1 4 2 1 (4)");
 		if (mode.equals("v")){
+			System.out.println("1 4 2 1 (4)");
 			for (int i = 2; i <= seed; i++){
 				System.out.print(i + " ");
 				int current_num = i;
